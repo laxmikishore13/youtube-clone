@@ -14,7 +14,7 @@ const useFetch = (url) => {
       },
     });
     const response = await fetchRequest.json();
-    setData(response.items);
+    setData(response);
     setLoading(false);
   };
 

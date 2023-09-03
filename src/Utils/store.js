@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import navbarSlice from "./navbarSlice";
+import searchResultsSlice from "./searchResultsSlice";
 
 const store = configureStore({
   reducer: {
     navbarSlice: navbarSlice,
+    searchResultsSlice: searchResultsSlice,
   },
 });
 

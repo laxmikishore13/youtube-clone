@@ -4,10 +4,10 @@ const Sidebar = () => {
   const navbar = useSelector((store) => store.navbarSlice.displayNavbar);
 
   return !navbar ? (
-    <div className=" col-span-4 shadow-lg">
+    <div className="shadow-lg">
       <ul role="list" className="px-2 py-3 font-sm ">
         <li>
-          <a href="#" className="block px-2 py-3 hover:bg-slate-100 rounded-lg">
+          <a href="/" className="block px-2 py-3 hover:bg-slate-100 rounded-lg">
             Home
           </a>
         </li>
